@@ -202,47 +202,51 @@ class albums extends StatelessWidget {
 class track extends StatelessWidget {
   final List songtrack = [
     [
-      "Sahabat",
+      "Kala Cinta Menggoda",
       "NOAH"
     ],
     [
-      "Aku & Bintang",
+      "Separuh Aku",
       "NOAH"
     ],
     [
-      "Semua Tentang Kita",
+      "Tak Lagi Sama",
       "NOAH"
     ],
     [
-      "Dan Hilang",
+      "Hidup Untukmu, Mati Tanpamu",
       "NOAH"
     ],
     [
-      "Satu Hati",
+      "Yang Terlupakan",
+      "Iwan Fals"
+    ],
+    [
+      "Wanitaku",
       "NOAH"
     ],
     [
-      "Mimpi Yang Sempurna",
+      "Walau Habis Terang",
       "NOAH"
     ],
     [
-      "Taman Langit",
+      "Menunggumu",
       "NOAH"
     ],
     [
-      "Yang Terdalam",
+      "Badai Pasti Berlalu",
       "NOAH"
     ],
     [
-      "Tinggalkan Waktu",
+      "Mencari Cinta",
       "NOAH"
     ],
     [
-      "Kita Tertawa",
+      "Jalan Mimpi",
       "NOAH"
     ],
     [
-      "Topeng",
+      "Cinta Bukan Dusta",
       "NOAH"
     ]
   ];
@@ -253,7 +257,7 @@ class track extends StatelessWidget {
         itemBuilder: (context, index) {
           return Card(
               child: ListTile(
-            title: Text(songtrack[index][0]),
+            title: Text(songtrack[index][0], style: TextStyle(fontWeight: FontWeight.bold)),
             subtitle: Text(songtrack[index][1]),
             leading: Icon(Icons.audiotrack),
           ));
