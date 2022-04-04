@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BelajarAppBar(),
+      home: AppBarMusic(),
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class BelajarAppBar extends StatelessWidget {
+class AppBarMusic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
