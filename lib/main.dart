@@ -143,7 +143,7 @@ class albums extends StatelessWidget {
       "Taman Langit"
     ],
     [
-      "assets/images/BSD.jpg",
+      "assets/images/BDS.jpg",
       "Bintang di Surga"
     ],
     [
@@ -151,7 +151,7 @@ class albums extends StatelessWidget {
       "Hari Yang Cerah"
     ],
     [
-      "assets/images/SS.jpg",
+      "assets/images/SL.jpg",
       "Sings Legends"
     ],
     [
@@ -159,7 +159,7 @@ class albums extends StatelessWidget {
       "Seperti Seharusnya"
     ],
     [
-      "assets/images/SS.jpg",
+      "assets/images/SC.jpg",
       "Second Chance"
     ],
     [
