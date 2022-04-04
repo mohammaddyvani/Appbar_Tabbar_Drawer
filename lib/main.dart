@@ -163,10 +163,6 @@ class albums extends StatelessWidget {
       "Second Chance"
     ],
     [
-      "assets/images/KK.jpg",
-      "Keterikatan Keterkaiatan"
-    ],
-    [
       "assets/images/SLA.jpg",
       "Suara Lainnya"
     ]
