@@ -125,7 +125,7 @@ class song extends StatelessWidget {
         itemBuilder: (context, index) {
           return Card(
               child: ListTile(
-            title: Text(albumTL[index][0]),
+            title: Text(albumTL[index][0], style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12.0)),
             subtitle: Text(albumTL[index][1]),
             leading: Icon(Icons.audiotrack),
           ));
