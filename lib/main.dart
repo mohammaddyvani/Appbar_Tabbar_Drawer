@@ -188,7 +188,7 @@ class albums extends StatelessWidget {
                   height: 130.0,
                   width: 130.0,
                 ),
-                Text(albumsNoah[index][1]),
+                Text(albumsNoah[index][1], style: TextStyle(fontWeight: FontWeight.bold)),
               ],
             ),
           );
